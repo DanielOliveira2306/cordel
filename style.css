@@ -27,15 +27,21 @@ section{
     margin: 0px;
 }
 
-body{
+body, html{
     background-color: rgba(245, 222, 179, 0.705);
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
 }
+
+
 
 /*header*/
 
 header{
     text-align: center;
     background-color: black;
+    width: 100vw;
     color: white;
     padding-top: 50px;
     padding-bottom: 50px;
