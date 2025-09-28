@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/*gerais*/
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    line-height: 1.5em;
+    font-size: 2em;
+    font-variant: small-caps;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgba(245, 222, 179, 0.705);
+}
+
+/*header*/
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+/*main*/
+
+#p2{
+    background: url(assets/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right bottom;
+    box-shadow: inset;
+    box-shadow: 10px 10px 10px 10px gray;
+    padding-left: 0px;
+}
+
+#p2 p{
+    background-color: rgba(0, 0, 0, 0.205);
+    width: 400px;
+    color: white;
+    padding-left: 30px;
+}
+
+#p5{
+     background: url(assets/background002.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: right bottom;
+     box-shadow: inset;
+     box-shadow: 10px 10px 10px 10px gray; padding-left: 0px;
+}
+
+#p5 p{
+    background-color: rgba(0, 0, 0, 0.205);
+    width: 400px;
+    
+    padding-left: 30px;
+}
+
+/*footer*/
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+
+footer a{
+    font-size: 1.5em;
+}
+
